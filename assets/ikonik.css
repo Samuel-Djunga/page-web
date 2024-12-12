@@ -1,0 +1,48 @@
+
+section {
+    padding: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column; 
+  }
+  .services {
+    height: 683px;
+  
+  
+    flex-direction: column;
+  
+    justify-content: flex-start;
+    /* flex-flow: column nowrap; / 
+    flex-direction: column; 
+    background-color: #bbdefb;
+    padding: 40px 55px;
+    gap: 15px;
+  }
+  .card_services  {
+    align-self:center;
+    background-color: aqua; 
+    width: 70%;
+    flex-grow:1;
+    display: flex;
+    / flex-flow: row nowrap; */ 
+    align-content: flex-start;
+    gap: 50px;
+    padding: 50px 0px;
+  }
+  .card {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    background-color: #1f1732;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5%;
+  }
+  .circle {
+    background-color: #2f2cee;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  
+  }
